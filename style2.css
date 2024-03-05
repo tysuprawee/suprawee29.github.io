@@ -2,8 +2,27 @@
     margin: auto;
     padding: 12px;
     background-color: lightcyan;
+    width: 100%;
 }
 
 #status{
     color: blue;
+}
+
+#info {
+    text-align: center;
+    align-items: center;
+}
+
+#button{
+    padding: 2%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
