@@ -2,7 +2,9 @@
     margin: auto;
     padding: 12px;
     background-color: lightcyan;
-    width: 100%;
+    width: 50%;
+    border: 10px double black;
+    border-radius: 50px;
 }
 
 #status{

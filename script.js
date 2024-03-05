@@ -3,7 +3,7 @@ function checkCode() {
     if(code.toLowerCase() === 'berling') {
         window.location.href = 'success.html'; 
     } else {
-        alert('Incorrect code. Please try again.');
+        alert('Incorrect code. Please try again.\nhint: "'+code+'" is not a correct code');
     }
 }
 
