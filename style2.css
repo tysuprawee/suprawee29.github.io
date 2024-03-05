@@ -1,0 +1,9 @@
+#status-box{
+    margin: auto;
+    padding: 12px;
+    background-color: lightcyan;
+}
+
+#status{
+    color: blue;
+}
