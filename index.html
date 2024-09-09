@@ -1,17 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enter Code</title>
-    <link rel="stylesheet" href="style.css">
+<html>
+<head><title>CSCE 274 - Speed Run</title>
+<style>
+body {background-color: rgb(255, 224, 167);
+li {margin: 10px;}
+
+}
+
+</style>
 </head>
 <body>
-    <div class="container">
-        <label for="code">Enter Code:</label>
-        <input type="password" id="code" name="code">
-        <button onclick="checkCode()">Submit</button>
-    </div>
-    <script src="script.js"></script>
+<ul>
+    <h1>Speed Setup ♫</h1>
+    <ul><li><a href="project1.pdf" target="_blank">project1</a></li><li><a href="hw2.pdf" target="_blank">hw2</a></li></ul>
+    <h3>- Speed Cloning</h3>
+<li><p>git clone https://suprawee29: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@github.com/suprawee29/robot.gi</p></li>
+<li><p>git status</p></li>
+<h3>- Speed dts/docker installing</h3>
+<li>https://docs.docker.com/engine/install/ubuntu/</li>
+<ul><li>sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</li>
+<li>sudo docker run hello-world (for testing)</li></ul>
+<li>sudo apt update</li>
+<li>sudo apt install -y python3-pip git git-lfs curl wget</li>
+<li>sudo adduser `whoami` docker</li>
+<li>sudo apt-get install docker-compose</li>
+<ul><li>Make sure the Docker version is v.0.8.0+ and buildx version v1.4.0+ </li><li>
+    docker --version
+</li><li>docker buildx --version</li></ul>
+<h3>- Speed dts build</h3>
+<li><p>dts devel build --pull</p></li>
+<li><p>docker image ls</p></li>
+<ul><li>Look for something like duckietown/(your_repo_name)</li></ul>
+<li>dts devel run -M -- --entrypoint=/bin/bash</li>
+<li>cd /code/catkin_ws/</li>
+<li>catkin build</li>
+<li>source devel/setup.bash</li>
+<h3>- Duckietown Shell</h3>
+<li>pip3 install --no-cache-dir --user --upgrade duckietown-shell</li>
+<li>dts --set-version daffy</li>
+<li>sudo apt install open-vm-tools</li>
+<img src="https://cdn.discordapp.com/attachments/1282190587390328976/1282699891524501627/IMG_9010.jpg?ex=66e04edd&is=66defd5d&hm=f0e0b616b339c37614402364d5b13200211880448a8a3b815a3360a19801a492&" width="800" alt="">
+</ul>   
 </body>
 </html>
+
